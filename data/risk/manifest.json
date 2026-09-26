@@ -1,0 +1,42 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20260926T210656Z",
+  "status": "ok",
+  "published_at": "2026-09-26T21:06:56.596686+00:00",
+  "source_generated_at": "2026-09-26T21:06:56.492236+00:00",
+  "positions_source": "snapshot_post_event_current_positions",
+  "position_count": 17,
+  "route_count": 63,
+  "files": {
+    "positions": "positions.json",
+    "pairs_core": "pairs_core.json",
+    "entries": "entries.json",
+    "changes": "changes.json",
+    "routes": {
+      "arbitrum": "routes/arbitrum.json",
+      "arbitrum_staked": "routes/arbitrum_staked.json",
+      "avalanche": "routes/avalanche.json",
+      "base": "routes/base.json",
+      "ethereum": "routes/ethereum.json",
+      "ethereum_staked": "routes/ethereum_staked.json",
+      "optimism": "routes/optimism.json",
+      "polygon": "routes/polygon.json",
+      "solana": "routes/solana.json"
+    }
+  },
+  "checksums": {
+    "positions.json": "339440ef6041835875caad9353aa26839140480b6b75ab864ed6da4f4fdc3b79",
+    "pairs_core.json": "cebd718814baa4716d8383c4bd07930b9db1b6976610a1ba56fb0e3ea9f0598b",
+    "entries.json": "f30d15e1f301041f065d14e8d5d688656fc8a83ad1e6a797798a77df94dfaed5",
+    "routes/arbitrum.json": "a54a605b45eda9c9abd20af72368c7b6ad1b7f06549cd52900570d23938a1729",
+    "routes/arbitrum_staked.json": "85d8a63520274254e2a409b238b3ae39956cc75ea8bbe2dd627ff5ee9277d474",
+    "routes/avalanche.json": "0c2e9c56958bc29c6ded554000fba0bc39b6d801d68624d81e70066688870b14",
+    "routes/base.json": "a5677a0a8f98cc06508b9bf813cc90a4b417fe875cfac5dcafa253781977a634",
+    "routes/ethereum.json": "c6d3116f0afbfb5d80561ee301a60c4fd3ea4588b598508aa34aabeb31ace2f5",
+    "routes/ethereum_staked.json": "d7bcddb024206755ced52e579d889e6cfb6bfdf07a81b939b4ed159cd6b440fe",
+    "routes/optimism.json": "77191205e90e26353a719331c12d9f02f94915f435057967e365bc21795492f9",
+    "routes/polygon.json": "a748fd6ba533d41028233281b3f739de3f1c144a6df8074022c06113dcc95687",
+    "routes/solana.json": "f7f84f80a1fafb9014a5ba8b0a5748ade78defea0bb95dff7d921f40fe61744d",
+    "changes.json": "20d4a1756c0b3969f5cf9c22338db9f22becf9344f9fa3e2c515c8f0e7f1029a"
+  }
+}
