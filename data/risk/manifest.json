@@ -1,0 +1,147 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261004T031741Z",
+  "status": "ok",
+  "published_at": "2026-10-04T03:17:41.918338+00:00",
+  "market_data_quality": {
+    "status": "SUCCESS",
+    "evaluated_at": "2026-10-04T03:17:44.498863+00:00",
+    "symbols": {
+      "BTC": {
+        "symbol": "BTC",
+        "provider": "coingecko",
+        "instrument": "BTC/USD",
+        "source_ts": "2026-10-04T03:13:50+00:00",
+        "age_minutes": 3.9083143833333334,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "ETH": {
+        "symbol": "ETH",
+        "provider": "coingecko",
+        "instrument": "ETH/USD",
+        "source_ts": "2026-10-04T03:13:40+00:00",
+        "age_minutes": 4.07498105,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "USDC": {
+        "symbol": "USDC",
+        "provider": "coingecko",
+        "instrument": "USDC/USD",
+        "source_ts": "2026-10-04T03:13:30+00:00",
+        "age_minutes": 4.241647716666667,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "SOL": {
+        "symbol": "SOL",
+        "provider": "coingecko",
+        "instrument": "SOL/USD",
+        "source_ts": "2026-10-04T03:13:40+00:00",
+        "age_minutes": 4.07498105,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "VSN": {
+        "symbol": "VSN",
+        "provider": "coingecko",
+        "instrument": "VSN/USD",
+        "source_ts": "2026-10-04T03:13:50+00:00",
+        "age_minutes": 3.9083143833333334,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "ARB": {
+        "symbol": "ARB",
+        "provider": "coingecko",
+        "instrument": "ARB/USD",
+        "source_ts": "2026-10-04T03:13:40+00:00",
+        "age_minutes": 4.07498105,
+        "history_start": "2025-09-23T00:02:02.983000+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "OP": {
+        "symbol": "OP",
+        "provider": "coingecko",
+        "instrument": "OP/USD",
+        "source_ts": "2026-10-04T03:13:50+00:00",
+        "age_minutes": 3.9083143833333334,
+        "history_start": "2025-09-23T00:02:24.452000+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "PUSD": {
+        "symbol": "PUSD",
+        "provider": "coingecko",
+        "instrument": "PUSD/USD",
+        "source_ts": "2026-10-04T03:13:50+00:00",
+        "age_minutes": 3.9083143833333334,
+        "history_start": "2026-04-28T16:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "DOT": {
+        "symbol": "DOT",
+        "provider": "coingecko",
+        "instrument": "DOT/USD",
+        "source_ts": "2026-10-04T03:13:50+00:00",
+        "age_minutes": 3.9083143833333334,
+        "history_start": "2026-09-09T12:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      }
+    }
+  },
+  "source_generated_at": "2026-10-04T03:17:41.831110+00:00",
+  "positions_source": "snapshot_post_event_current_positions",
+  "position_count": 17,
+  "route_count": 54,
+  "files": {
+    "positions": "positions.json",
+    "pairs_core": "pairs_core.json",
+    "entries": "entries.json",
+    "changes": "changes.json",
+    "routes": {
+      "arbitrum": "routes/arbitrum.json",
+      "arbitrum_staked": "routes/arbitrum_staked.json",
+      "avalanche": "routes/avalanche.json",
+      "base": "routes/base.json",
+      "ethereum": "routes/ethereum.json",
+      "ethereum_staked": "routes/ethereum_staked.json",
+      "optimism": "routes/optimism.json",
+      "polygon": "routes/polygon.json",
+      "solana": "routes/solana.json"
+    }
+  },
+  "checksums": {
+    "positions.json": "62aff508d75c8aae76fac2607e768eef4e080419e4db6b513c57595e4bf852d2",
+    "pairs_core.json": "ceea1b47e75a25a03703697e7c0a2a3f9a00decfdbe4048e4693a213b3148acc",
+    "entries.json": "8412c0ebdfd8286586dca7e57d21d4d9cbde3a22e8a5c59a354f261123f6064e",
+    "routes/arbitrum.json": "b61cd45fae4b318f1fe8e57e6a155e15ae65448cdb3130f9bf70c6510f4059d5",
+    "routes/arbitrum_staked.json": "7123d979f0c05fae68ac2116ba3d1bff1ea3f256739a426554c846dfb9a5f5f9",
+    "routes/avalanche.json": "19b0ff1878ac4e36ab5d8b4abcb7ee40df476e58870c5c89403e69f3151f5ceb",
+    "routes/base.json": "30ea423b36e4c8234f3c674f870f9168bed4860c0bea75af459526318c85abf4",
+    "routes/ethereum.json": "819c3a86b8e93d797ac301e8b72e096817410ff36253d9fcf3ac750a2ec5e3e3",
+    "routes/ethereum_staked.json": "02431373839acf36508edc578f17fb519a3a82a8bd0ee672194bb43d4a9d41b1",
+    "routes/optimism.json": "459f36cbd4eb3be64259b7141ef2e0f74b71fb674153bc2f91f48d2a8f4b020b",
+    "routes/polygon.json": "8db2b7e4d7d1e7dcb3c047fede99f0a5f5cf787ca30cff08f5a237543bfa2d85",
+    "routes/solana.json": "28b4962fc1747741b9c7d258673ea689ecc3dec9a1836f3a83c368945b3e429c",
+    "changes.json": "c857dd642efdf1de9bfea970536f3056b95f2c32ea02e9b5840d04ba296a2ad0"
+  }
+}
