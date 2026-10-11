@@ -1,0 +1,185 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261011T001030Z",
+  "status": "ok",
+  "published_at": "2026-10-11T00:10:30.694451+00:00",
+  "market_data_quality": {
+    "status": "SUCCESS",
+    "evaluated_at": "2026-10-11T00:10:34.597376+00:00",
+    "symbols": {
+      "BTC": {
+        "symbol": "BTC",
+        "provider": "coingecko",
+        "instrument": "BTC/USD",
+        "source_ts": "2026-10-11T00:09:38+00:00",
+        "age_minutes": 0.9432896,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "ETH": {
+        "symbol": "ETH",
+        "provider": "coingecko",
+        "instrument": "ETH/USD",
+        "source_ts": "2026-10-11T00:09:51+00:00",
+        "age_minutes": 0.7266229333333333,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "USDC": {
+        "symbol": "USDC",
+        "provider": "coingecko",
+        "instrument": "USDC/USD",
+        "source_ts": "2026-10-11T00:09:51+00:00",
+        "age_minutes": 0.7266229333333333,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "SOL": {
+        "symbol": "SOL",
+        "provider": "coingecko",
+        "instrument": "SOL/USD",
+        "source_ts": "2026-10-11T00:09:59+00:00",
+        "age_minutes": 0.5932896,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "VSN": {
+        "symbol": "VSN",
+        "provider": "coingecko",
+        "instrument": "VSN/USD",
+        "source_ts": "2026-10-11T00:09:38+00:00",
+        "age_minutes": 0.9432896,
+        "history_start": "2025-09-01T00:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "ARB": {
+        "symbol": "ARB",
+        "provider": "coingecko",
+        "instrument": "ARB/USD",
+        "source_ts": "2026-10-11T00:09:38+00:00",
+        "age_minutes": 0.9432896,
+        "history_start": "2025-09-23T00:02:02.983000+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "OP": {
+        "symbol": "OP",
+        "provider": "coingecko",
+        "instrument": "OP/USD",
+        "source_ts": "2026-10-11T00:09:59+00:00",
+        "age_minutes": 0.5932896,
+        "history_start": "2025-09-23T00:02:24.452000+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "PUSD": {
+        "symbol": "PUSD",
+        "provider": "coingecko",
+        "instrument": "PUSD/USD",
+        "source_ts": "2026-10-11T00:09:59+00:00",
+        "age_minutes": 0.5932896,
+        "history_start": "2026-04-28T16:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "DOT": {
+        "symbol": "DOT",
+        "provider": "coingecko",
+        "instrument": "DOT/USD",
+        "source_ts": "2026-10-11T00:09:59+00:00",
+        "age_minutes": 0.5932896,
+        "history_start": "2026-09-09T12:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "EURC": {
+        "symbol": "EURC",
+        "provider": "coingecko",
+        "instrument": "EURC/USD",
+        "source_ts": "2026-10-11T00:09:59+00:00",
+        "age_minutes": 0.5932896,
+        "history_start": "2026-09-28T10:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "AVAX": {
+        "symbol": "AVAX",
+        "provider": "coingecko",
+        "instrument": "AVAX/USD",
+        "source_ts": "2026-10-11T00:09:38+00:00",
+        "age_minutes": 0.9432896,
+        "history_start": "2026-09-28T10:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      },
+      "POL": {
+        "symbol": "POL",
+        "provider": "coingecko",
+        "instrument": "POL/USD",
+        "source_ts": "2026-10-11T00:09:59+00:00",
+        "age_minutes": 0.5932896,
+        "history_start": "2026-09-28T10:00:00+00:00",
+        "fallback": false,
+        "available": true,
+        "attempts": []
+      }
+    }
+  },
+  "source_generated_at": "2026-10-11T00:10:30.470891+00:00",
+  "positions_source": "snapshot_post_event_current_positions",
+  "position_count": 23,
+  "route_count": 94,
+  "files": {
+    "positions": "positions.json",
+    "pairs_core": "pairs_core.json",
+    "entries": "entries.json",
+    "changes": "changes.json",
+    "routes": {
+      "arbitrum": "routes/arbitrum.json",
+      "arbitrum_staked": "routes/arbitrum_staked.json",
+      "avalanche": "routes/avalanche.json",
+      "base": "routes/base.json",
+      "ethereum": "routes/ethereum.json",
+      "ethereum_staked": "routes/ethereum_staked.json",
+      "optimism": "routes/optimism.json",
+      "polygon": "routes/polygon.json",
+      "solana": "routes/solana.json"
+    },
+    "bitpanda_monitor": "bitpanda.json",
+    "bitpanda_recommendations": "bitpanda.json"
+  },
+  "checksums": {
+    "positions.json": "db55ae3d685ef2dba5531fbefce15a767a3d77ef23b7193f578cb0d8599911a5",
+    "pairs_core.json": "5deca9eb647f89a06abdab07015db1a5e619f555b54a337d979e193cf1506af3",
+    "entries.json": "3158da6cae1881233e6731e358255adca3197778fa21e388effb1f867bd53d55",
+    "routes/arbitrum.json": "3ffc25f878e76bbfc2c6f0266384e96d415cae6ea54d80f9d77c6e0345230e08",
+    "routes/arbitrum_staked.json": "febd092a94213bde44169f83f6b8e56cea6eacab05aa550eb0542fc7388e0948",
+    "routes/avalanche.json": "b7cbb0425d8da0300559363cc0f6d666de488a12de9e43894818f214ee13da51",
+    "routes/base.json": "d1e7d2b9b9a5c96c414e58923c7068aa8fce1a19e2d80b73cb333dc1c583db94",
+    "routes/ethereum.json": "3f4fa11b8eb5f5b33903e6aadbf3ce8a8d4ffbebe02dbbd42ab3cd81cecd55ad",
+    "routes/ethereum_staked.json": "a2461f8c405cf1c84b326805d53e2988bf68824581406b1030b939ce63f5f834",
+    "routes/optimism.json": "6f7b72a74f5e12ff4406dcada90417f9e222289edd005f53b89a5b862de52cf3",
+    "routes/polygon.json": "90093ab17b2b8f1ca7eeae14b291a6e520df7ddecff9f26d8a8139999e01ba24",
+    "routes/solana.json": "ba5bebe4eb3605b87f4a8d2aea70122664a80f027b807cef8f274c5593214a24",
+    "bitpanda.json": "f01a38561e6de103bf3ae4642b525b96ba73b7d4c7d151a62ecf4b0e9a1dceff",
+    "changes.json": "813ccf2002b28920bd0af20a8ed0bf3f828ac7c42c7475f41c11cb3bd936f490"
+  },
+  "bitpanda_trade_recommendation_count": 43,
+  "bitpanda_rotation_recommendation_count": 0
+}
