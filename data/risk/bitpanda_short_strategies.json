@@ -1,0 +1,287 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261114T161943Z",
+  "status": "ok",
+  "source_generated_at": "2026-11-14T16:19:43.451481+00:00",
+  "projection_evaluated_at": "2026-11-14T16:19:43.897655+00:00",
+  "strategies": {
+    "schema_version": 1,
+    "wallet": "bitpanda",
+    "orders_enabled": false,
+    "evaluated_at": "2026-11-14T16:19:43.897655+00:00",
+    "count": 3,
+    "items": [
+      {
+        "strategy_id": "bitpanda_native:BTC1S:downtrend",
+        "proposal_type": "short_downtrend_review",
+        "status": "REVIEW_REQUIRED",
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "defi_candidate": false,
+        "execution_access": "bitpanda_native",
+        "fusion_available": false,
+        "symbol": "BTC1S",
+        "asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+        "underlying_symbol": "BTC",
+        "source_currency": "EUR",
+        "evaluated_at": "2026-11-14T16:19:43.897655+00:00",
+        "valid_until": "2026-11-14T16:25:37.605931+00:00",
+        "signal_qualified": true,
+        "forecast_calibrated": false,
+        "orders_enabled": false,
+        "executable": false,
+        "recommendation_eligible": false,
+        "expected_return_pct": null,
+        "xp_eur": 0.0,
+        "reference_notional_eur": 100.0,
+        "holding_hours": 72.0,
+        "selection_reason": "shortest_horizon_meeting_conservative_net_buffer",
+        "trend_inputs": {
+          "18": {
+            "daily_return_fraction": -0.03943618674597249,
+            "daily_return_pct": -3.943618674597249,
+            "r2": 0.7016217566204648,
+            "direction": "down"
+          },
+          "72": {
+            "daily_return_fraction": -0.038359468306168765,
+            "daily_return_pct": -3.8359468306168765,
+            "r2": 0.9651395949755633,
+            "direction": "down"
+          }
+        },
+        "scenario_basis": "half_slower_decline_not_a_forecast",
+        "scenario_net_return_pct": 4.572861956989338,
+        "scenario_net_result_eur": 4.572861956989328,
+        "scenario_price_result_eur": 5.927337595227776,
+        "purchase_fee_eur": 0.0,
+        "scenario_funding_fee_eur": 0.2981841033193555,
+        "scenario_return_fee_eur": 1.0562915349190842,
+        "extra_cost_allowance_eur": 0.0,
+        "min_net_buffer_pct": 1.0,
+        "break_even_underlying_fall_pct": 1.2997210525209084,
+        "buffer_required_underlying_fall_pct": 2.285839326679707,
+        "flat_net_return_pct": -1.2967030989999961,
+        "adverse_net_return_pct": -6.916679950252158,
+        "net_basis": "after_modelled_costs_before_tax",
+        "execution_blockers": [
+          "ACTUAL_ENTRY_LEVERAGE_REQUIRED",
+          "NATIVE_EXECUTION_QUOTE_REQUIRED",
+          "MODEL_SCENARIOS_NOT_CALIBRATED_FORECAST",
+          "INDIVIDUAL_TAX_NOT_INCLUDED"
+        ],
+        "assumptions": [
+          "initial_leverage_1x_unverified",
+          "smooth_underlying_EUR_path",
+          "funding_before_daily_reset_to_1x",
+          "no_intraday_reset_or_knockout",
+          "net_buffer_is_configured_not_statistical",
+          "zero_extra_cost_allowance_is_not_a_verified_free_quote"
+        ],
+        "fee_terms": {
+          "reviewed_at": "2026-11-10",
+          "purchase_fee_pct": 0.0,
+          "return_fee_pct": 1.0,
+          "overnight_fee_pct": 0.1,
+          "fee_base": "exposure_at_charge_time",
+          "charge_time": "23:00",
+          "charge_timezone": "CET_FIXED_UTC_PLUS_01",
+          "charge_interval": "entry_exclusive_exit_inclusive",
+          "terms_url": "https://cdn.bitpanda.com/terms-and-conditions/l-token-short-bitpanda-en-latest.pdf",
+          "cost_url": "https://cdn.bitpanda.com/terms-and-conditions/cost-transparency-leverage-bitpanda-en-1.0.0.pdf",
+          "terms_version": "2.1.0",
+          "execution_quote_verified": false,
+          "historical_fees_already_embedded_in_product_price": true
+        }
+      },
+      {
+        "strategy_id": "bitpanda_native:ETH1S:downtrend",
+        "proposal_type": "short_downtrend_review",
+        "status": "REVIEW_REQUIRED",
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "defi_candidate": false,
+        "execution_access": "bitpanda_native",
+        "fusion_available": false,
+        "symbol": "ETH1S",
+        "asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+        "underlying_symbol": "ETH",
+        "source_currency": "EUR",
+        "evaluated_at": "2026-11-14T16:19:43.897655+00:00",
+        "valid_until": "2026-11-14T16:25:39.203115+00:00",
+        "signal_qualified": true,
+        "forecast_calibrated": false,
+        "orders_enabled": false,
+        "executable": false,
+        "recommendation_eligible": false,
+        "expected_return_pct": null,
+        "xp_eur": 0.0,
+        "reference_notional_eur": 100.0,
+        "holding_hours": 72.0,
+        "selection_reason": "shortest_horizon_meeting_conservative_net_buffer",
+        "trend_inputs": {
+          "18": {
+            "daily_return_fraction": -0.03575599278127772,
+            "daily_return_pct": -3.5755992781277723,
+            "r2": 0.5055777198321634,
+            "direction": "down"
+          },
+          "72": {
+            "daily_return_fraction": -0.032072008805890895,
+            "daily_return_pct": -3.2072008805890895,
+            "r2": 0.9299825485107315,
+            "direction": "down"
+          }
+        },
+        "scenario_basis": "half_slower_decline_not_a_forecast",
+        "scenario_net_return_pct": 3.5853062370010846,
+        "scenario_net_result_eur": 3.5853062370010917,
+        "scenario_price_result_eur": 4.930063074532885,
+        "purchase_fee_eur": 0.0,
+        "scenario_funding_fee_eur": 0.29844061291563656,
+        "scenario_return_fee_eur": 1.0463162246161728,
+        "extra_cost_allowance_eur": 0.0,
+        "min_net_buffer_pct": 1.0,
+        "break_even_underlying_fall_pct": 1.2997210525209084,
+        "buffer_required_underlying_fall_pct": 2.285839326679707,
+        "flat_net_return_pct": -1.2967030989999961,
+        "adverse_net_return_pct": -6.004805680673386,
+        "net_basis": "after_modelled_costs_before_tax",
+        "execution_blockers": [
+          "ACTUAL_ENTRY_LEVERAGE_REQUIRED",
+          "NATIVE_EXECUTION_QUOTE_REQUIRED",
+          "MODEL_SCENARIOS_NOT_CALIBRATED_FORECAST",
+          "INDIVIDUAL_TAX_NOT_INCLUDED"
+        ],
+        "assumptions": [
+          "initial_leverage_1x_unverified",
+          "smooth_underlying_EUR_path",
+          "funding_before_daily_reset_to_1x",
+          "no_intraday_reset_or_knockout",
+          "net_buffer_is_configured_not_statistical",
+          "zero_extra_cost_allowance_is_not_a_verified_free_quote"
+        ],
+        "fee_terms": {
+          "reviewed_at": "2026-11-10",
+          "purchase_fee_pct": 0.0,
+          "return_fee_pct": 1.0,
+          "overnight_fee_pct": 0.1,
+          "fee_base": "exposure_at_charge_time",
+          "charge_time": "23:00",
+          "charge_timezone": "CET_FIXED_UTC_PLUS_01",
+          "charge_interval": "entry_exclusive_exit_inclusive",
+          "terms_url": "https://cdn.bitpanda.com/terms-and-conditions/l-token-short-bitpanda-en-latest.pdf",
+          "cost_url": "https://cdn.bitpanda.com/terms-and-conditions/cost-transparency-leverage-bitpanda-en-1.0.0.pdf",
+          "terms_version": "2.1.0",
+          "execution_quote_verified": false,
+          "historical_fees_already_embedded_in_product_price": true
+        }
+      },
+      {
+        "strategy_id": "bitpanda_native:SOL1S:downtrend",
+        "proposal_type": "short_downtrend_review",
+        "status": "REVIEW_REQUIRED",
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "defi_candidate": false,
+        "execution_access": "bitpanda_native",
+        "fusion_available": false,
+        "symbol": "SOL1S",
+        "asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+        "underlying_symbol": "SOL",
+        "source_currency": "EUR",
+        "evaluated_at": "2026-11-14T16:19:43.897655+00:00",
+        "valid_until": "2026-11-14T16:25:43.040182+00:00",
+        "signal_qualified": true,
+        "forecast_calibrated": false,
+        "orders_enabled": false,
+        "executable": false,
+        "recommendation_eligible": false,
+        "expected_return_pct": null,
+        "xp_eur": 0.0,
+        "reference_notional_eur": 100.0,
+        "holding_hours": 72.0,
+        "selection_reason": "shortest_horizon_meeting_conservative_net_buffer",
+        "trend_inputs": {
+          "18": {
+            "daily_return_fraction": -0.05786956990524017,
+            "daily_return_pct": -5.786956990524017,
+            "r2": 0.6774654528031026,
+            "direction": "down"
+          },
+          "72": {
+            "daily_return_fraction": -0.03775227957246485,
+            "daily_return_pct": -3.7752279572464853,
+            "r2": 0.8987017401682744,
+            "direction": "down"
+          }
+        },
+        "scenario_basis": "half_slower_decline_not_a_forecast",
+        "scenario_net_return_pct": 4.477044696804944,
+        "scenario_net_result_eur": 4.477044696804953,
+        "scenario_price_result_eur": 5.83057739581849,
+        "purchase_fee_eur": 0.0,
+        "scenario_funding_fee_eur": 0.29820901520743537,
+        "scenario_return_fee_eur": 1.0553236838061106,
+        "extra_cost_allowance_eur": 0.0,
+        "min_net_buffer_pct": 1.0,
+        "break_even_underlying_fall_pct": 1.2997210525209084,
+        "buffer_required_underlying_fall_pct": 2.285839326679707,
+        "flat_net_return_pct": -1.2967030989999961,
+        "adverse_net_return_pct": -6.828777837354072,
+        "net_basis": "after_modelled_costs_before_tax",
+        "execution_blockers": [
+          "ACTUAL_ENTRY_LEVERAGE_REQUIRED",
+          "NATIVE_EXECUTION_QUOTE_REQUIRED",
+          "MODEL_SCENARIOS_NOT_CALIBRATED_FORECAST",
+          "INDIVIDUAL_TAX_NOT_INCLUDED"
+        ],
+        "assumptions": [
+          "initial_leverage_1x_unverified",
+          "smooth_underlying_EUR_path",
+          "funding_before_daily_reset_to_1x",
+          "no_intraday_reset_or_knockout",
+          "net_buffer_is_configured_not_statistical",
+          "zero_extra_cost_allowance_is_not_a_verified_free_quote"
+        ],
+        "fee_terms": {
+          "reviewed_at": "2026-11-10",
+          "purchase_fee_pct": 0.0,
+          "return_fee_pct": 1.0,
+          "overnight_fee_pct": 0.1,
+          "fee_base": "exposure_at_charge_time",
+          "charge_time": "23:00",
+          "charge_timezone": "CET_FIXED_UTC_PLUS_01",
+          "charge_interval": "entry_exclusive_exit_inclusive",
+          "terms_url": "https://cdn.bitpanda.com/terms-and-conditions/l-token-short-bitpanda-en-latest.pdf",
+          "cost_url": "https://cdn.bitpanda.com/terms-and-conditions/cost-transparency-leverage-bitpanda-en-1.0.0.pdf",
+          "terms_version": "2.1.0",
+          "execution_quote_verified": false,
+          "historical_fees_already_embedded_in_product_price": true
+        }
+      }
+    ],
+    "checks": [
+      {
+        "symbol": "BTC1S",
+        "asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+        "proposal_available": true,
+        "blocking_reasons": []
+      },
+      {
+        "symbol": "ETH1S",
+        "asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+        "proposal_available": true,
+        "blocking_reasons": []
+      },
+      {
+        "symbol": "SOL1S",
+        "asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+        "proposal_available": true,
+        "blocking_reasons": []
+      }
+    ],
+    "source": "shared_bitpanda_short_model",
+    "scope": "hypothetical_new_entry_from_eur_before_tax"
+  }
+}
