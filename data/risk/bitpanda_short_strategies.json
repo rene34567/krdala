@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261121T211420Z",
+  "status": "ok",
+  "source_generated_at": "2026-11-21T21:14:20.273311+00:00",
+  "projection_evaluated_at": "2026-11-21T21:14:20.718309+00:00",
+  "strategies": {
+    "schema_version": 1,
+    "wallet": "bitpanda",
+    "orders_enabled": false,
+    "evaluated_at": "2026-11-21T21:14:20.718309+00:00",
+    "count": 0,
+    "items": [],
+    "checks": [
+      {
+        "symbol": "BTC1S",
+        "asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+        "proposal_available": false,
+        "blocking_reasons": [
+          "CONFIRMED_18H_AND_72H_DOWNTREND_REQUIRED"
+        ]
+      },
+      {
+        "symbol": "ETH1S",
+        "asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+        "proposal_available": false,
+        "blocking_reasons": [
+          "CONFIRMED_18H_AND_72H_DOWNTREND_REQUIRED"
+        ]
+      },
+      {
+        "symbol": "SOL1S",
+        "asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+        "proposal_available": false,
+        "blocking_reasons": [
+          "CONFIRMED_18H_AND_72H_DOWNTREND_REQUIRED"
+        ]
+      }
+    ],
+    "source": "shared_bitpanda_short_model",
+    "scope": "hypothetical_new_entry_from_eur_before_tax"
+  }
+}
