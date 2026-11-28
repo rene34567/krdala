@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261128T143432Z",
+  "status": "ok",
+  "source_generated_at": "2026-11-28T14:34:32.195526+00:00",
+  "reference": {
+    "schema_version": 1,
+    "model_version": "1.0.0-c2-consumer",
+    "snapshot_id": "20261128T143432Z",
+    "source_generated_at": "2026-11-28T14:34:32.195526+00:00",
+    "evaluated_at": "2026-11-28T14:36:23.386291+00:00",
+    "review_sha256": "93af2c04b8ffdf57ee20ab8d4ab6fc9af27e22a73e7073f1828e0f1febd878e2",
+    "actual_trade_amounts": null,
+    "trade_proposals": [],
+    "orders_enabled": false,
+    "executable": false,
+    "recommendation_eligible": false,
+    "trade_proposal_available": false,
+    "actual_stress_loss_verified": false,
+    "forecast_calibrated": false,
+    "actual_portfolio_risk_recomputed": false,
+    "status": "INPUTS_REQUIRED",
+    "signals": null,
+    "reference_allocation": null,
+    "execution_blockers": [
+      "NATIVE_EXECUTION_QUOTES_REQUIRED",
+      "ACTUAL_PRODUCT_LEVERAGE_AND_RESET_STRESS_REQUIRED",
+      "NET_SWITCH_COST_EVIDENCE_REQUIRED"
+    ],
+    "blocking_reasons": [
+      "FRESH_C1_REVIEW_REQUIRED"
+    ],
+    "limitations": [
+      "linear_stress_screen_is_not_issuer_path_or_guaranteed_loss_bound",
+      "reference_fees_exclude_unobserved_execution_spread",
+      "possible_sales_are_conditional_not_spendable_cash",
+      "all_three_alignment_does_not_remove_correlation_risk"
+    ],
+    "valid_until": "2026-11-28T14:34:26.844811+00:00",
+    "history": {
+      "BTC": {
+        "mode": "LOCAL_USD_ASOF_FX_HISTORY_RECONSTRUCTION",
+        "points_added": 9,
+        "missing_after": 3,
+        "quality_limits_unchanged": true,
+        "historical_availability_verified": false,
+        "accounting_eligible": false
+      },
+      "ETH": {
+        "mode": "LOCAL_USD_ASOF_FX_HISTORY_RECONSTRUCTION",
+        "points_added": 9,
+        "missing_after": 3,
+        "quality_limits_unchanged": true,
+        "historical_availability_verified": false,
+        "accounting_eligible": false
+      },
+      "SOL": {
+        "mode": "LOCAL_USD_ASOF_FX_HISTORY_RECONSTRUCTION",
+        "points_added": 11,
+        "missing_after": 2,
+        "quality_limits_unchanged": true,
+        "historical_availability_verified": false,
+        "accounting_eligible": false
+      }
+    },
+    "funding": null,
+    "projection_sha256": "71a624cbdfb9748a26231f2527e719a35b44df42d4c0e2f534eac54a403b3d08"
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261128T143432Z",
+  "status": "ok",
+  "source_generated_at": "2026-11-28T14:34:32.195526+00:00",
+  "review": {
+    "schema_version": 1,
+    "model_version": "1.0.0-b3-consumer",
+    "wallet": "bitpanda",
+    "snapshot_id": "20261128T143432Z",
+    "source_generated_at": "2026-11-28T14:34:32.195526+00:00",
+    "accounting_at": "2026-11-28T14:19:26.844811+00:00",
+    "evaluated_at": "2026-11-28T14:34:32.604310+00:00",
+    "report_status": "STALE_ARCHIVED_VALUATION",
+    "source_report_sha256": "6d7d26678eb034bcec7c3dcef2fe6b2059663d280d641a9f04b00f34f32de7b0",
+    "status": "REFERENCE_ANALYSIS",
+    "positions": [
+      {
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "access_channel": "bitpanda_native",
+        "symbol": "BTC2L",
+        "asset_id": "1ed5e973-6cac-646e-b114-3a29a52737c3",
+        "underlying_symbol": "BTC",
+        "product_type": "cfd_long_2x",
+        "amount": "0.13807389",
+        "current_value_eur": "41.58",
+        "evidence_status": "OBSERVED",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "quantity_status": "MATCH",
+        "open_cost_basis_eur": "44.401411963696178",
+        "realized_pnl_eur": "-10.698588036303820601",
+        "unrealized_pnl_eur": "-2.821411963696178",
+        "unrealized_pnl_pct": "-6.354329375838413485359629192",
+        "accounting_validated": false,
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "source": "long_accounting_report",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 15
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-8.898588036303820601",
+            "trade_fees_eur": "1.800000000",
+            "evidenced_trade_fees_eur": "1.800000000",
+            "after_trade_fees_eur": "-10.698588036303820601",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-2.821411963696178",
+            "trade_fees_eur": "0E-9",
+            "evidenced_trade_fees_eur": "0E-9",
+            "after_trade_fees_eur": "-2.821411963696178",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "access_channel": "bitpanda_native",
+        "symbol": "BTC1S",
+        "asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+        "underlying_symbol": "BTC",
+        "product_type": "cfd_short",
+        "amount": "0.03098461",
+        "current_value_eur": "0.92",
+        "evidence_status": "OBSERVED",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "quantity_status": "MATCH",
+        "open_cost_basis_eur": "0.9083690677222052",
+        "realized_pnl_eur": "0.52836906772220657",
+        "unrealized_pnl_eur": "0.0116309322777948",
+        "unrealized_pnl_pct": "1.280419236088710371636538465",
+        "accounting_validated": false,
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "source": "native_short_fifo",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 17
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "3.33836906772220657",
+            "trade_fees_eur": "2.81000000",
+            "evidenced_trade_fees_eur": "2.81000000",
+            "after_trade_fees_eur": "0.52836906772220657",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "0.0116309322777948",
+            "trade_fees_eur": "0E-8",
+            "evidenced_trade_fees_eur": "0E-8",
+            "after_trade_fees_eur": "0.0116309322777948",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "access_channel": "bitpanda_native",
+        "symbol": "ETH2L",
+        "asset_id": "1ed5e973-73cc-6578-847f-3a29a52737c3",
+        "underlying_symbol": "ETH",
+        "product_type": "cfd_long_2x",
+        "amount": "0.00372324",
+        "current_value_eur": "0.10",
+        "evidence_status": "OBSERVED",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "quantity_status": "MATCH",
+        "open_cost_basis_eur": "0.11080196664632425",
+        "realized_pnl_eur": "-5.03919803335367499",
+        "unrealized_pnl_eur": "-0.01080196664632425",
+        "unrealized_pnl_pct": "-9.748894332177085941114023752",
+        "accounting_validated": false,
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "source": "long_accounting_report",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 7
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-4.48919803335367499",
+            "trade_fees_eur": "0.55",
+            "evidenced_trade_fees_eur": "0.55",
+            "after_trade_fees_eur": "-5.03919803335367499",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-0.01080196664632425",
+            "trade_fees_eur": "0",
+            "evidenced_trade_fees_eur": "0",
+            "after_trade_fees_eur": "-0.01080196664632425",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "access_channel": "bitpanda_native",
+        "symbol": "ETH1S",
+        "asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+        "underlying_symbol": "ETH",
+        "product_type": "cfd_short",
+        "amount": "0.00471562",
+        "current_value_eur": "0.19",
+        "evidence_status": "OBSERVED",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "quantity_status": "MATCH",
+        "open_cost_basis_eur": "0.1865299168256307",
+        "realized_pnl_eur": "0.51652991682563252",
+        "unrealized_pnl_eur": "0.0034700831743693",
+        "unrealized_pnl_pct": "1.860335989756085530765425713",
+        "accounting_validated": false,
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "source": "native_short_fifo",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 15
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "2.32652991682563252",
+            "trade_fees_eur": "1.810000000",
+            "evidenced_trade_fees_eur": "1.810000000",
+            "after_trade_fees_eur": "0.51652991682563252",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "0.0034700831743693",
+            "trade_fees_eur": "0E-9",
+            "evidenced_trade_fees_eur": "0E-9",
+            "after_trade_fees_eur": "0.0034700831743693",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "access_channel": "bitpanda_native",
+        "symbol": "SOL2L",
+        "asset_id": "1edaeaf7-6e9b-6c5e-bb27-4a8b18153f58",
+        "underlying_symbol": "SOL",
+        "product_type": "cfd_long_2x",
+        "amount": "0.37286119",
+        "current_value_eur": "19.35",
+        "evidence_status": "OBSERVED",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "quantity_status": "MATCH",
+        "open_cost_basis_eur": "20.9413602634591598",
+        "realized_pnl_eur": "-9.05863973654083950",
+        "unrealized_pnl_eur": "-1.5913602634591598",
+        "unrealized_pnl_pct": "-7.599125574645426127492381084",
+        "accounting_validated": false,
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "source": "long_accounting_report",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 11
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-8.15863973654083950",
+            "trade_fees_eur": "0.90000000",
+            "evidenced_trade_fees_eur": "0.90000000",
+            "after_trade_fees_eur": "-9.05863973654083950",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-1.5913602634591598",
+            "trade_fees_eur": "0E-8",
+            "evidenced_trade_fees_eur": "0E-8",
+            "after_trade_fees_eur": "-1.5913602634591598",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "wallet": "bitpanda",
+        "network": "bitpanda",
+        "access_channel": "bitpanda_native",
+        "symbol": "SOL1S",
+        "asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+        "underlying_symbol": "SOL",
+        "product_type": "cfd_short",
+        "amount": "0.00082303",
+        "current_value_eur": "0.10",
+        "evidence_status": "OBSERVED",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "quantity_status": "MATCH",
+        "open_cost_basis_eur": "0.09833124459735387",
+        "realized_pnl_eur": "0.50833124459735049",
+        "unrealized_pnl_eur": "0.00166875540264613",
+        "unrealized_pnl_pct": "1.697075440750636875758953658",
+        "accounting_validated": false,
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "source": "native_short_fifo",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 12
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "1.82833124459735049",
+            "trade_fees_eur": "1.32",
+            "evidenced_trade_fees_eur": "1.32",
+            "after_trade_fees_eur": "0.50833124459735049",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "0.00166875540264613",
+            "trade_fees_eur": "0",
+            "evidenced_trade_fees_eur": "0",
+            "after_trade_fees_eur": "0.00166875540264613",
+            "unknown_trade_count": 0
+          }
+        }
+      }
+    ],
+    "strategies": [
+      {
+        "underlying_symbol": "BTC",
+        "long_symbol": "BTC2L",
+        "short_symbol": "BTC1S",
+        "long_asset_id": "1ed5e973-6cac-646e-b114-3a29a52737c3",
+        "short_asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+        "status": "DATA_REQUIRED",
+        "trends": {
+          "1": {
+            "confirmed": false,
+            "direction": "unconfirmed",
+            "history_ready": true,
+            "daily_return_fraction": -0.0369776675937461,
+            "daily_return_pct": -3.69776675937461,
+            "r2": 0.2203713848219404,
+            "expected_return_pct": null
+          },
+          "18": {
+            "confirmed": true,
+            "direction": "down",
+            "history_ready": true,
+            "daily_return_fraction": -0.01638128080312451,
+            "daily_return_pct": -1.638128080312451,
+            "r2": 0.5567460841020003,
+            "expected_return_pct": null
+          },
+          "72": {
+            "confirmed": false,
+            "direction": "unconfirmed",
+            "history_ready": false,
+            "daily_return_fraction": null,
+            "daily_return_pct": null,
+            "r2": null,
+            "expected_return_pct": null
+          }
+        },
+        "confirmation_stage": 0,
+        "correlation_scale": 0.5929377452136089,
+        "reference_target_weights": null,
+        "reference_capital_eur": 100.0,
+        "reference_basis": "equal_hypothetical_sleeves_not_actual_portfolio",
+        "comparisons": [],
+        "scenario_review_candidate": false,
+        "blocking_reasons": [
+          "STALE_ACCOUNTING_REFERENCE",
+          "CONFIRMED_1H_DIRECTION_REQUIRED"
+        ],
+        "valid_until": null,
+        "btc_lead_applied": false
+      },
+      {
+        "underlying_symbol": "ETH",
+        "long_symbol": "ETH2L",
+        "short_symbol": "ETH1S",
+        "long_asset_id": "1ed5e973-73cc-6578-847f-3a29a52737c3",
+        "short_asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+        "status": "DATA_REQUIRED",
+        "trends": {
+          "1": {
+            "confirmed": true,
+            "direction": "down",
+            "history_ready": true,
+            "daily_return_fraction": -0.06724754079433204,
+            "daily_return_pct": -6.724754079433204,
+            "r2": 0.2882067325667854,
+            "expected_return_pct": null
+          },
+          "18": {
+            "confirmed": true,
+            "direction": "down",
+            "history_ready": true,
+            "daily_return_fraction": -0.017337339089598114,
+            "daily_return_pct": -1.7337339089598114,
+            "r2": 0.7332096243032805,
+            "expected_return_pct": null
+          },
+          "72": {
+            "confirmed": false,
+            "direction": "unconfirmed",
+            "history_ready": false,
+            "daily_return_fraction": null,
+            "daily_return_pct": null,
+            "r2": null,
+            "expected_return_pct": null
+          }
+        },
+        "confirmation_stage": 2,
+        "correlation_scale": 0.5929377452136089,
+        "reference_target_weights": null,
+        "reference_capital_eur": 100.0,
+        "reference_basis": "equal_hypothetical_sleeves_not_actual_portfolio",
+        "comparisons": [],
+        "scenario_review_candidate": false,
+        "blocking_reasons": [
+          "STALE_ACCOUNTING_REFERENCE"
+        ],
+        "valid_until": null,
+        "btc_lead_applied": false
+      },
+      {
+        "underlying_symbol": "SOL",
+        "long_symbol": "SOL2L",
+        "short_symbol": "SOL1S",
+        "long_asset_id": "1edaeaf7-6e9b-6c5e-bb27-4a8b18153f58",
+        "short_asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+        "status": "DATA_REQUIRED",
+        "trends": {
+          "1": {
+            "confirmed": true,
+            "direction": "down",
+            "history_ready": true,
+            "daily_return_fraction": -0.14197964735995428,
+            "daily_return_pct": -14.197964735995427,
+            "r2": 0.5702461719350258,
+            "expected_return_pct": null
+          },
+          "18": {
+            "confirmed": true,
+            "direction": "down",
+            "history_ready": true,
+            "daily_return_fraction": -0.025325115488089356,
+            "daily_return_pct": -2.5325115488089356,
+            "r2": 0.8217021384845574,
+            "expected_return_pct": null
+          },
+          "72": {
+            "confirmed": false,
+            "direction": "unconfirmed",
+            "history_ready": false,
+            "daily_return_fraction": null,
+            "daily_return_pct": null,
+            "r2": null,
+            "expected_return_pct": null
+          }
+        },
+        "confirmation_stage": 2,
+        "correlation_scale": 0.5929377452136089,
+        "reference_target_weights": null,
+        "reference_capital_eur": 100.0,
+        "reference_basis": "equal_hypothetical_sleeves_not_actual_portfolio",
+        "comparisons": [],
+        "scenario_review_candidate": false,
+        "blocking_reasons": [
+          "STALE_ACCOUNTING_REFERENCE"
+        ],
+        "valid_until": null,
+        "btc_lead_applied": false
+      }
+    ],
+    "correlations": {
+      "BTC/ETH": {
+        "18": {
+          "status": "AVAILABLE",
+          "samples": 72,
+          "correlation": 0.8402263221107837,
+          "descriptive_only": true,
+          "statistical_significance_claimed": false,
+          "expected_returns": 72,
+          "observed_fraction": 1.0
+        },
+        "72": {
+          "status": "AVAILABLE",
+          "samples": 277,
+          "correlation": 0.9221709696622645,
+          "descriptive_only": true,
+          "statistical_significance_claimed": false,
+          "expected_returns": 288,
+          "observed_fraction": 0.9618055555555556
+        }
+      },
+      "BTC/SOL": {
+        "18": {
+          "status": "AVAILABLE",
+          "samples": 72,
+          "correlation": 0.7094984751207261,
+          "descriptive_only": true,
+          "statistical_significance_claimed": false,
+          "expected_returns": 72,
+          "observed_fraction": 1.0
+        },
+        "72": {
+          "status": "AVAILABLE",
+          "samples": 277,
+          "correlation": 0.8586184988459689,
+          "descriptive_only": true,
+          "statistical_significance_claimed": false,
+          "expected_returns": 288,
+          "observed_fraction": 0.9618055555555556
+        }
+      },
+      "ETH/SOL": {
+        "18": {
+          "status": "AVAILABLE",
+          "samples": 72,
+          "correlation": 0.8010602814700242,
+          "descriptive_only": true,
+          "statistical_significance_claimed": false,
+          "expected_returns": 72,
+          "observed_fraction": 1.0
+        },
+        "72": {
+          "status": "AVAILABLE",
+          "samples": 283,
+          "correlation": 0.8613588131896367,
+          "descriptive_only": true,
+          "statistical_significance_claimed": false,
+          "expected_returns": 288,
+          "observed_fraction": 0.9826388888888888
+        }
+      }
+    },
+    "primary_strategy_source": "bitpanda_long_positions.report.rotation_reference",
+    "alternative_strategy_files": [
+      "bitpanda_leverage_rotation.json",
+      "bitpanda_short_strategies.json"
+    ],
+    "alternative_strategy_policy": "LEGACY_REFERENCE_ONLY_NOT_ADDITIVE_PROPOSALS",
+    "actual_trade_amounts": null,
+    "trade_proposal_available": false,
+    "orders_enabled": false,
+    "automatic_reallocation_enabled": false,
+    "recommendation_eligible": false,
+    "forecast_calibrated": false,
+    "expected_return_pct": null,
+    "sizing_status": "FUNDED_BUDGET_AND_EXECUTION_EVIDENCE_REQUIRED",
+    "portfolio_totals_recomputed": false,
+    "valid_until": "2026-11-28T14:34:26.844811+00:00",
+    "accounting_validated": false,
+    "warnings": [
+      "ACCOUNTING_NOT_FULLY_VALIDATED"
+    ],
+    "settings": {
+      "stage_risk_fractions": [
+        0.2,
+        0.5,
+        1.0
+      ],
+      "horizon_hours": 24.0,
+      "min_switch_advantage_pct": 1.0,
+      "min_switch_net_return_pct": 1.0,
+      "min_target_change_pct": 10.0,
+      "extra_cost_allowance_pct": 0.25
+    },
+    "btc_lead_policy": "DISABLED_NO_REPEATABLE_EVIDENCE",
+    "fee_model_reviewed_at": "2026-11-23",
+    "short_model_reviewed_at": "2026-11-10"
+  }
+}

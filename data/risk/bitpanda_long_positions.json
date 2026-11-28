@@ -1,0 +1,1356 @@
+{
+  "schema_version": 2,
+  "snapshot_id": "20261128T143432Z",
+  "status": "ok",
+  "source_generated_at": "2026-11-28T14:34:32.195526+00:00",
+  "report": {
+    "schema_version": 1,
+    "report_type": "bitpanda_long_positions",
+    "snapshot_id": "20261128T141926Z",
+    "source_generated_at": "2026-11-28T14:19:26.844811+00:00",
+    "generated_at": "2026-11-28T14:34:32.604310+00:00",
+    "valuation_age_seconds": 905.759499,
+    "valuation_fresh_15m": false,
+    "mode": "READ_ONLY_CURRENT_ARCHIVES",
+    "status": "STALE_ARCHIVED_VALUATION",
+    "inventory_coverage": {
+      "status": "CAPTURED_PORTFOLIO_CLASSIFIED",
+      "classification_basis": "native_catalogue_symbol_2L_suffix_and_reviewed_product_ids",
+      "asset_classes_without_2L_labels_proven_complete": false,
+      "paginated": false,
+      "unclassified_rows": 0,
+      "candidates": [
+        {
+          "asset_id": "1ed5e973-6cac-646e-b114-3a29a52737c3",
+          "symbol": "BTC2L",
+          "components": 1,
+          "reported_component_amounts": [
+            "0.13807389"
+          ],
+          "identity_verified": true
+        },
+        {
+          "asset_id": "1ed5e973-73cc-6578-847f-3a29a52737c3",
+          "symbol": "ETH2L",
+          "components": 1,
+          "reported_component_amounts": [
+            "0.00372324"
+          ],
+          "identity_verified": true
+        },
+        {
+          "asset_id": "1edaeaf7-6e9b-6c5e-bb27-4a8b18153f58",
+          "symbol": "SOL2L",
+          "components": 1,
+          "reported_component_amounts": [
+            "0.37286119"
+          ],
+          "identity_verified": true
+        }
+      ],
+      "verified_fiat_rows_excluded": 1
+    },
+    "positions": [
+      {
+        "symbol": "BTC2L",
+        "asset_id": "1ed5e973-6cac-646e-b114-3a29a52737c3",
+        "underlying_symbol": "BTC",
+        "product_type": "cfd_long_2x",
+        "access_channel": "bitpanda_native",
+        "position_state": "OPEN",
+        "amount": "0.13807389",
+        "fifo_amount": "0.13807389000000002",
+        "current_value_eur": "41.58",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "open_cost_basis_eur": "44.401411963696178",
+        "realized_cost_basis_eur": "190.5985880363038196",
+        "realized_pnl_eur": "-10.698588036303820601",
+        "realized_pnl_pct": "-5.613151779627051646914617026",
+        "unrealized_pnl_eur": "-2.821411963696178",
+        "unrealized_pnl_pct": "-6.354329375838413485359629192",
+        "percentage_bases": {
+          "realized": "FIFO_cost_basis_of_sold_lots",
+          "unrealized": "FIFO_cost_basis_of_open_lots"
+        },
+        "quantity_status": "MATCH",
+        "valuation_quantity_time_consistent": true,
+        "available_records_validated": false,
+        "accounting_validated": false,
+        "history_status": "AVAILABLE_RECORDS_PROCESSED_START_UNKNOWN",
+        "cost_basis_status": "DOCUMENTED_RECORDED_COUNTERVALUES",
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "validation_blockers": [
+          "FEES_SPREAD_MEANING_UNVERIFIED",
+          "HISTORY_START_NOT_PROVEN"
+        ],
+        "transaction_count": 15,
+        "closed_lot_count": 13,
+        "closed_lots": [
+          {
+            "closed_amount": 0.04139919,
+            "entry_time": "2026-11-15T17:52:14.765000+00:00",
+            "exit_time": "2026-11-18T19:08:07.573000+00:00",
+            "entry_cost_basis_eur": 15.0,
+            "exit_value_eur": 14.080701959174146,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.9192980408258542
+          },
+          {
+            "closed_amount": 0.03210423,
+            "entry_time": "2026-11-17T15:38:09.998000+00:00",
+            "exit_time": "2026-11-18T19:08:07.573000+00:00",
+            "entry_cost_basis_eur": 11.66003935852519,
+            "exit_value_eur": 10.919298040825854,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.7407413176993352
+          },
+          {
+            "closed_amount": 0.03672965,
+            "entry_time": "2026-11-17T15:38:09.998000+00:00",
+            "exit_time": "2026-11-24T07:34:22.078000+00:00",
+            "entry_cost_basis_eur": 13.33996064147481,
+            "exit_value_eur": 11.54579061861781,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -1.794170022857001
+          },
+          {
+            "closed_amount": 0.05870681999999999,
+            "entry_time": "2026-11-21T23:09:02.667000+00:00",
+            "exit_time": "2026-11-24T07:34:22.078000+00:00",
+            "entry_cost_basis_eur": 18.367009050097938,
+            "exit_value_eur": 18.45420938138219,
+            "fee_eur": 0.0,
+            "net_pnl_eur": 0.08720033128425086
+          },
+          {
+            "closed_amount": 0.10110913000000002,
+            "entry_time": "2026-11-21T23:09:02.667000+00:00",
+            "exit_time": "2026-11-24T10:35:17.358000+00:00",
+            "entry_cost_basis_eur": 31.632990949902062,
+            "exit_value_eur": 31.00999371881975,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.6229972310823122
+          },
+          {
+            "closed_amount": 0.01300954999999998,
+            "entry_time": "2026-11-23T14:27:04.289000+00:00",
+            "exit_time": "2026-11-24T10:35:17.358000+00:00",
+            "entry_cost_basis_eur": 4.613333598109773,
+            "exit_value_eur": 3.990006281180253,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.6233273169295201
+          },
+          {
+            "closed_amount": 0.08192053,
+            "entry_time": "2026-11-23T14:27:04.289000+00:00",
+            "exit_time": "2026-11-24T15:47:41.612000+00:00",
+            "entry_cost_basis_eur": 29.049946648728064,
+            "exit_value_eur": 25.0,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -4.0499466487280635
+          },
+          {
+            "closed_amount": 0.01722188,
+            "entry_time": "2026-11-23T14:27:04.289000+00:00",
+            "exit_time": "2026-11-25T16:08:50.715000+00:00",
+            "entry_cost_basis_eur": 6.107073467307851,
+            "exit_value_eur": 5.0,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -1.1070734673078508
+          },
+          {
+            "closed_amount": 0.0006476000000000086,
+            "entry_time": "2026-11-23T14:27:04.289000+00:00",
+            "exit_time": "2026-11-25T21:30:21.015000+00:00",
+            "entry_cost_basis_eur": 0.2296462858543098,
+            "exit_value_eur": 0.1997219213829693,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.029924364471340503
+          },
+          {
+            "closed_amount": 0.09630339999999998,
+            "entry_time": "2026-11-25T19:46:03.314000+00:00",
+            "exit_time": "2026-11-25T21:30:21.015000+00:00",
+            "entry_cost_basis_eur": 29.564868393395958,
+            "exit_value_eur": 29.70027807861703,
+            "fee_eur": 0.0,
+            "net_pnl_eur": 0.13540968522107022
+          },
+          {
+            "closed_amount": 0.0014173800000000097,
+            "entry_time": "2026-11-25T19:46:03.314000+00:00",
+            "exit_time": "2026-11-27T21:25:26.552000+00:00",
+            "entry_cost_basis_eur": 0.4351316066040418,
+            "exit_value_eur": 0.431469356435737,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.003662250168304848
+          },
+          {
+            "closed_amount": 0.06343627,
+            "entry_time": "2026-11-26T10:33:15.394000+00:00",
+            "exit_time": "2026-11-27T21:25:26.552000+00:00",
+            "entry_cost_basis_eur": 20.0,
+            "exit_value_eur": 19.31084577994854,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.68915422005146
+          },
+          {
+            "closed_amount": 0.03369656999999998,
+            "entry_time": "2026-11-26T12:13:18.484000+00:00",
+            "exit_time": "2026-11-27T21:25:26.552000+00:00",
+            "entry_cost_basis_eur": 10.598588036303822,
+            "exit_value_eur": 10.257684863615722,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.34090317268809933
+          }
+        ],
+        "nominal_2x_reference_exposure_eur": "83.16",
+        "actual_effective_exposure_eur": null,
+        "exposure_basis": "nominal_2x_reference_not_measured_intraday_leverage",
+        "market_history": {
+          "basis": "observed_bitpanda_product_EUR",
+          "asset_id": "1ed5e973-6cac-646e-b114-3a29a52737c3",
+          "timestamp_basis": "collector_observation_not_exact_exchange_trade_time",
+          "evaluated_at": "2026-11-28T14:19:26.844811+00:00",
+          "closed_through": "2026-11-28T14:15:00+00:00",
+          "bar_minutes": 15,
+          "last_observation_at": "2026-11-28T14:16:58.955923+00:00",
+          "age_seconds": 147.888888,
+          "rejected_rows": 3,
+          "windows": {
+            "1": {
+              "status": "AVAILABLE",
+              "observed_points": 5,
+              "expected_points": 5,
+              "observed_fraction": 1.0,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": -0.33290286093389243,
+              "log_slope_pct_per_day": -10.786554348307508,
+              "r2": 0.38556605110151965,
+              "max_drawdown_pct": -0.6562302405243914,
+              "realized_volatility_pct_per_sqrt_day": 3.6742896765282174
+            },
+            "18": {
+              "status": "AVAILABLE",
+              "observed_points": 73,
+              "expected_points": 73,
+              "observed_fraction": 1.0,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": -2.0639622787660183,
+              "log_slope_pct_per_day": -3.259292550490519,
+              "r2": 0.5894428512902448,
+              "max_drawdown_pct": -3.497208805848806,
+              "realized_volatility_pct_per_sqrt_day": 2.348701112376721
+            },
+            "72": {
+              "status": "AVAILABLE",
+              "observed_points": 286,
+              "expected_points": 289,
+              "observed_fraction": 0.9896193771626297,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": 2.3365265108540534,
+              "log_slope_pct_per_day": -0.27080413113218954,
+              "r2": 0.00946682618555883,
+              "max_drawdown_pct": -8.115347963598241,
+              "realized_volatility_pct_per_sqrt_day": 4.947337352034106
+            }
+          },
+          "forecast_calibrated": false,
+          "synthetic_prices_used": false,
+          "limitations": [
+            "descriptive_historical_statistics",
+            "sampled_drawdown_can_miss_intrabar_losses",
+            "one_hour_has_only_four_returns",
+            "embedded_product_costs_not_deducted_again"
+          ]
+        },
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 15
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-8.898588036303820601",
+            "trade_fees_eur": "1.800000000",
+            "evidenced_trade_fees_eur": "1.800000000",
+            "after_trade_fees_eur": "-10.698588036303820601",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-2.821411963696178",
+            "trade_fees_eur": "0E-9",
+            "evidenced_trade_fees_eur": "0E-9",
+            "after_trade_fees_eur": "-2.821411963696178",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "symbol": "ETH2L",
+        "asset_id": "1ed5e973-73cc-6578-847f-3a29a52737c3",
+        "underlying_symbol": "ETH",
+        "product_type": "cfd_long_2x",
+        "access_channel": "bitpanda_native",
+        "position_state": "OPEN",
+        "amount": "0.00372324",
+        "fifo_amount": "0.0037232400000000165",
+        "current_value_eur": "0.10",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "open_cost_basis_eur": "0.11080196664632425",
+        "realized_cost_basis_eur": "59.889198033353674",
+        "realized_pnl_eur": "-5.03919803335367499",
+        "realized_pnl_pct": "-8.414201890877265582375908753",
+        "unrealized_pnl_eur": "-0.01080196664632425",
+        "unrealized_pnl_pct": "-9.748894332177085941114023752",
+        "percentage_bases": {
+          "realized": "FIFO_cost_basis_of_sold_lots",
+          "unrealized": "FIFO_cost_basis_of_open_lots"
+        },
+        "quantity_status": "MATCH",
+        "valuation_quantity_time_consistent": true,
+        "available_records_validated": false,
+        "accounting_validated": false,
+        "history_status": "AVAILABLE_RECORDS_PROCESSED_START_UNKNOWN",
+        "cost_basis_status": "DOCUMENTED_RECORDED_COUNTERVALUES",
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "validation_blockers": [
+          "FEES_SPREAD_MEANING_UNVERIFIED",
+          "HISTORY_START_NOT_PROVEN"
+        ],
+        "transaction_count": 7,
+        "closed_lot_count": 6,
+        "closed_lots": [
+          {
+            "closed_amount": 0.44353892,
+            "entry_time": "2026-11-17T07:20:44.396000+00:00",
+            "exit_time": "2026-11-18T19:09:56.971000+00:00",
+            "entry_cost_basis_eur": 15.0,
+            "exit_value_eur": 13.827406626380572,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -1.1725933736194278
+          },
+          {
+            "closed_amount": 0.037613039999999986,
+            "entry_time": "2026-11-17T15:40:21.190000+00:00",
+            "exit_time": "2026-11-18T19:09:56.971000+00:00",
+            "entry_cost_basis_eur": 1.232602489609912,
+            "exit_value_eur": 1.1725933736194274,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.06000911599048453
+          },
+          {
+            "closed_amount": 0.42011409,
+            "entry_time": "2026-11-17T15:40:21.190000+00:00",
+            "exit_time": "2026-11-24T11:34:16.336000+00:00",
+            "entry_cost_basis_eur": 13.767397510390088,
+            "exit_value_eur": 11.88708283850283,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -1.880314671887259
+          },
+          {
+            "closed_amount": 0.28672727,
+            "entry_time": "2026-11-23T07:18:33.008000+00:00",
+            "exit_time": "2026-11-24T11:34:16.336000+00:00",
+            "entry_cost_basis_eur": 8.532876045361418,
+            "exit_value_eur": 8.11291716149717,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.41995888386424696
+          },
+          {
+            "closed_amount": 0.53747225,
+            "entry_time": "2026-11-23T07:18:33.008000+00:00",
+            "exit_time": "2026-11-24T15:48:06.022000+00:00",
+            "entry_cost_basis_eur": 15.994935141925996,
+            "exit_value_eur": 15.0,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.9949351419259962
+          },
+          {
+            "closed_amount": 0.18015682,
+            "entry_time": "2026-11-23T07:18:33.008000+00:00",
+            "exit_time": "2026-11-25T16:09:23.301000+00:00",
+            "entry_cost_basis_eur": 5.36138684606626,
+            "exit_value_eur": 4.85,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.5113868460662605
+          }
+        ],
+        "nominal_2x_reference_exposure_eur": "0.20",
+        "actual_effective_exposure_eur": null,
+        "exposure_basis": "nominal_2x_reference_not_measured_intraday_leverage",
+        "market_history": {
+          "basis": "observed_bitpanda_product_EUR",
+          "asset_id": "1ed5e973-73cc-6578-847f-3a29a52737c3",
+          "timestamp_basis": "collector_observation_not_exact_exchange_trade_time",
+          "evaluated_at": "2026-11-28T14:19:26.844811+00:00",
+          "closed_through": "2026-11-28T14:15:00+00:00",
+          "bar_minutes": 15,
+          "last_observation_at": "2026-11-28T14:17:00.378619+00:00",
+          "age_seconds": 146.466192,
+          "rejected_rows": 3,
+          "windows": {
+            "1": {
+              "status": "AVAILABLE",
+              "observed_points": 5,
+              "expected_points": 5,
+              "observed_fraction": 1.0,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": -0.6447680945735002,
+              "log_slope_pct_per_day": -19.231555749794953,
+              "r2": 0.5229464875326708,
+              "max_drawdown_pct": -0.9964268753363092,
+              "realized_volatility_pct_per_sqrt_day": 4.595993330883571
+            },
+            "18": {
+              "status": "AVAILABLE",
+              "observed_points": 73,
+              "expected_points": 73,
+              "observed_fraction": 1.0,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": -3.0434308303976976,
+              "log_slope_pct_per_day": -3.3859605457566007,
+              "r2": 0.7056856603714639,
+              "max_drawdown_pct": -3.411506508308171,
+              "realized_volatility_pct_per_sqrt_day": 2.7256428880808885
+            },
+            "72": {
+              "status": "AVAILABLE",
+              "observed_points": 286,
+              "expected_points": 289,
+              "observed_fraction": 0.9896193771626297,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": 0.2735950176937507,
+              "log_slope_pct_per_day": -0.9862233676733337,
+              "r2": 0.08754995100265517,
+              "max_drawdown_pct": -10.736481670427233,
+              "realized_volatility_pct_per_sqrt_day": 5.796071831425511
+            }
+          },
+          "forecast_calibrated": false,
+          "synthetic_prices_used": false,
+          "limitations": [
+            "descriptive_historical_statistics",
+            "sampled_drawdown_can_miss_intrabar_losses",
+            "one_hour_has_only_four_returns",
+            "embedded_product_costs_not_deducted_again"
+          ]
+        },
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 7
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-4.48919803335367499",
+            "trade_fees_eur": "0.55",
+            "evidenced_trade_fees_eur": "0.55",
+            "after_trade_fees_eur": "-5.03919803335367499",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-0.01080196664632425",
+            "trade_fees_eur": "0",
+            "evidenced_trade_fees_eur": "0",
+            "after_trade_fees_eur": "-0.01080196664632425",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      {
+        "symbol": "SOL2L",
+        "asset_id": "1edaeaf7-6e9b-6c5e-bb27-4a8b18153f58",
+        "underlying_symbol": "SOL",
+        "product_type": "cfd_long_2x",
+        "access_channel": "bitpanda_native",
+        "position_state": "OPEN",
+        "amount": "0.37286119",
+        "fifo_amount": "0.372861189999999917",
+        "current_value_eur": "19.35",
+        "valuation_at": "2026-11-28T14:19:26.844811+00:00",
+        "open_cost_basis_eur": "20.9413602634591598",
+        "realized_cost_basis_eur": "99.058639736540840",
+        "realized_pnl_eur": "-9.05863973654083950",
+        "realized_pnl_pct": "-9.144724539559047001085551884",
+        "unrealized_pnl_eur": "-1.5913602634591598",
+        "unrealized_pnl_pct": "-7.599125574645426127492381084",
+        "percentage_bases": {
+          "realized": "FIFO_cost_basis_of_sold_lots",
+          "unrealized": "FIFO_cost_basis_of_open_lots"
+        },
+        "quantity_status": "MATCH",
+        "valuation_quantity_time_consistent": true,
+        "available_records_validated": false,
+        "accounting_validated": false,
+        "history_status": "AVAILABLE_RECORDS_PROCESSED_START_UNKNOWN",
+        "cost_basis_status": "DOCUMENTED_RECORDED_COUNTERVALUES",
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "validation_blockers": [
+          "FEES_SPREAD_MEANING_UNVERIFIED",
+          "HISTORY_START_NOT_PROVEN"
+        ],
+        "transaction_count": 11,
+        "closed_lot_count": 9,
+        "closed_lots": [
+          {
+            "closed_amount": 0.14380736,
+            "entry_time": "2026-11-13T14:52:15.785000+00:00",
+            "exit_time": "2026-11-20T18:59:39.628000+00:00",
+            "entry_cost_basis_eur": 10.0,
+            "exit_value_eur": 7.255613926846821,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -2.744386073153179
+          },
+          {
+            "closed_amount": 0.18065362,
+            "entry_time": "2026-11-15T19:58:30.386000+00:00",
+            "exit_time": "2026-11-20T18:59:39.628000+00:00",
+            "entry_cost_basis_eur": 10.0,
+            "exit_value_eur": 9.114644210194063,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.8853557898059368
+          },
+          {
+            "closed_amount": 0.07194203000000002,
+            "entry_time": "2026-11-17T06:17:22.837000+00:00",
+            "exit_time": "2026-11-20T18:59:39.628000+00:00",
+            "entry_cost_basis_eur": 4.055016235953126,
+            "exit_value_eur": 3.6297418629591145,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.42527437299401116
+          },
+          {
+            "closed_amount": 0.10547286999999997,
+            "entry_time": "2026-11-17T06:17:22.837000+00:00",
+            "exit_time": "2026-11-22T08:58:45.254000+00:00",
+            "entry_cost_basis_eur": 5.944983764046874,
+            "exit_value_eur": 5.413833639323554,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.5311501247233199
+          },
+          {
+            "closed_amount": 0.26027897,
+            "entry_time": "2026-11-17T11:55:33.279000+00:00",
+            "exit_time": "2026-11-22T08:58:45.254000+00:00",
+            "entry_cost_basis_eur": 15.0,
+            "exit_value_eur": 13.35990045017725,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -1.6400995498227502
+          },
+          {
+            "closed_amount": 0.023890240000000063,
+            "entry_time": "2026-11-21T23:08:22.369000+00:00",
+            "exit_time": "2026-11-22T08:58:45.254000+00:00",
+            "entry_cost_basis_eur": 1.250564329899433,
+            "exit_value_eur": 1.2262659104991978,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.02429841940023514
+          },
+          {
+            "closed_amount": 0.3832437,
+            "entry_time": "2026-11-21T23:08:22.369000+00:00",
+            "exit_time": "2026-11-24T10:35:45.197000+00:00",
+            "entry_cost_basis_eur": 20.06136819381798,
+            "exit_value_eur": 20.0,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.0613681938179802
+          },
+          {
+            "closed_amount": 0.2614909199999999,
+            "entry_time": "2026-11-21T23:08:22.369000+00:00",
+            "exit_time": "2026-11-24T15:46:53.477000+00:00",
+            "entry_cost_basis_eur": 13.688067476282587,
+            "exit_value_eur": 12.89718117015872,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -0.7908863061238662
+          },
+          {
+            "closed_amount": 0.3467604100000001,
+            "entry_time": "2026-11-23T08:33:47.862000+00:00",
+            "exit_time": "2026-11-24T15:46:53.477000+00:00",
+            "entry_cost_basis_eur": 19.05863973654084,
+            "exit_value_eur": 17.10281882984128,
+            "fee_eur": 0.0,
+            "net_pnl_eur": -1.9558209066995609
+          }
+        ],
+        "nominal_2x_reference_exposure_eur": "38.70",
+        "actual_effective_exposure_eur": null,
+        "exposure_basis": "nominal_2x_reference_not_measured_intraday_leverage",
+        "market_history": {
+          "basis": "observed_bitpanda_product_EUR",
+          "asset_id": "1edaeaf7-6e9b-6c5e-bb27-4a8b18153f58",
+          "timestamp_basis": "collector_observation_not_exact_exchange_trade_time",
+          "evaluated_at": "2026-11-28T14:19:26.844811+00:00",
+          "closed_through": "2026-11-28T14:15:00+00:00",
+          "bar_minutes": 15,
+          "last_observation_at": "2026-11-28T14:17:04.046205+00:00",
+          "age_seconds": 142.798606,
+          "rejected_rows": 3,
+          "windows": {
+            "1": {
+              "status": "AVAILABLE",
+              "observed_points": 5,
+              "expected_points": 5,
+              "observed_fraction": 1.0,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": -1.2927310346442011,
+              "log_slope_pct_per_day": -37.272340533310775,
+              "r2": 0.7005356724292884,
+              "max_drawdown_pct": -1.5126439005709424,
+              "realized_volatility_pct_per_sqrt_day": 6.37007223327275
+            },
+            "18": {
+              "status": "AVAILABLE",
+              "observed_points": 73,
+              "expected_points": 73,
+              "observed_fraction": 1.0,
+              "filled_points": 0,
+              "direction": "down",
+              "change_pct": -4.4661420477938645,
+              "log_slope_pct_per_day": -5.065344993746929,
+              "r2": 0.7895324735627287,
+              "max_drawdown_pct": -5.02383079317581,
+              "realized_volatility_pct_per_sqrt_day": 3.424100906673888
+            },
+            "72": {
+              "status": "AVAILABLE",
+              "observed_points": 286,
+              "expected_points": 289,
+              "observed_fraction": 0.9896193771626297,
+              "filled_points": 0,
+              "direction": "up",
+              "change_pct": 9.110048028241756,
+              "log_slope_pct_per_day": 1.9470635480276006,
+              "r2": 0.28612473158625895,
+              "max_drawdown_pct": -8.31971437335759,
+              "realized_volatility_pct_per_sqrt_day": 5.6184955423978025
+            }
+          },
+          "forecast_calibrated": false,
+          "synthetic_prices_used": false,
+          "limitations": [
+            "descriptive_historical_statistics",
+            "sampled_drawdown_can_miss_intrabar_losses",
+            "one_hour_has_only_four_returns",
+            "embedded_product_costs_not_deducted_again"
+          ]
+        },
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 11
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-8.15863973654083950",
+            "trade_fees_eur": "0.90000000",
+            "evidenced_trade_fees_eur": "0.90000000",
+            "after_trade_fees_eur": "-9.05863973654083950",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "-1.5913602634591598",
+            "trade_fees_eur": "0E-8",
+            "evidenced_trade_fees_eur": "0E-8",
+            "after_trade_fees_eur": "-1.5913602634591598",
+            "unknown_trade_count": 0
+          }
+        }
+      }
+    ],
+    "historically_closed_lots_retained": true,
+    "valuation_total_eur": "61.03",
+    "known_valuation_subtotal_eur": "61.03",
+    "valuation_total_complete": true,
+    "cross_asset": {
+      "schema_version": 1,
+      "version": "1.0.0",
+      "evaluated_at": "2026-11-28T14:19:26.844811+00:00",
+      "closed_through": "2026-11-28T14:15:00+00:00",
+      "bar_minutes": 15,
+      "status": "AVAILABLE",
+      "basis": "synchronized_observed_spot_EUR_log_returns",
+      "sources": {
+        "BTC": {
+          "asset_id": "b86c034b-efe3-11eb-b56f-0691764446a7",
+          "provider": "bitpanda",
+          "quote_currency": "EUR",
+          "last_closed_observation_at": "2026-11-28T14:11:30.499520+00:00"
+        },
+        "ETH": {
+          "asset_id": "b86c113a-efe3-11eb-b56f-0691764446a7",
+          "provider": "bitpanda",
+          "quote_currency": "EUR",
+          "last_closed_observation_at": "2026-11-28T14:11:32.013617+00:00"
+        },
+        "SOL": {
+          "asset_id": "b86da33d-efe3-11eb-b56f-0691764446a7",
+          "provider": "bitpanda",
+          "quote_currency": "EUR",
+          "last_closed_observation_at": "2026-11-28T14:11:36.395179+00:00"
+        }
+      },
+      "correlations": {
+        "BTC/ETH": {
+          "1": {
+            "status": "AVAILABLE",
+            "samples": 4,
+            "correlation": 0.9824539854451354,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 4,
+            "observed_fraction": 1.0
+          },
+          "18": {
+            "status": "AVAILABLE",
+            "samples": 72,
+            "correlation": 0.8402263221107837,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 72,
+            "observed_fraction": 1.0
+          },
+          "72": {
+            "status": "AVAILABLE",
+            "samples": 277,
+            "correlation": 0.9221709696622645,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 288,
+            "observed_fraction": 0.9618055555555556
+          }
+        },
+        "BTC/SOL": {
+          "1": {
+            "status": "AVAILABLE",
+            "samples": 4,
+            "correlation": 0.9973989752347558,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 4,
+            "observed_fraction": 1.0
+          },
+          "18": {
+            "status": "AVAILABLE",
+            "samples": 72,
+            "correlation": 0.7094984751207261,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 72,
+            "observed_fraction": 1.0
+          },
+          "72": {
+            "status": "AVAILABLE",
+            "samples": 277,
+            "correlation": 0.8586184988459689,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 288,
+            "observed_fraction": 0.9618055555555556
+          }
+        },
+        "ETH/SOL": {
+          "1": {
+            "status": "AVAILABLE",
+            "samples": 4,
+            "correlation": 0.9900781177818857,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 4,
+            "observed_fraction": 1.0
+          },
+          "18": {
+            "status": "AVAILABLE",
+            "samples": 72,
+            "correlation": 0.8010602814700242,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 72,
+            "observed_fraction": 1.0
+          },
+          "72": {
+            "status": "AVAILABLE",
+            "samples": 283,
+            "correlation": 0.8613588131896367,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 288,
+            "observed_fraction": 0.9826388888888888
+          }
+        }
+      },
+      "btc_lead_lag": {
+        "ETH": {
+          "status": "NOT_VALIDATED",
+          "validated": false,
+          "lag_minutes": 45,
+          "training": {
+            "status": "AVAILABLE",
+            "samples": 168,
+            "correlation": -0.04085726162267263
+          },
+          "validation": {
+            "status": "AVAILABLE",
+            "samples": 96,
+            "correlation": -0.17092268334479693
+          },
+          "contemporaneous_training": {
+            "status": "AVAILABLE",
+            "samples": 181,
+            "correlation": 0.9074523115419213
+          },
+          "contemporaneous_validation": {
+            "status": "AVAILABLE",
+            "samples": 96,
+            "correlation": 0.9412862026312934
+          },
+          "reverse_validation": {
+            "status": "AVAILABLE",
+            "samples": 96,
+            "correlation": -0.24375709820961644
+          },
+          "validation_halves": [
+            {
+              "status": "AVAILABLE",
+              "samples": 48,
+              "correlation": -0.1692736357613274
+            },
+            {
+              "status": "AVAILABLE",
+              "samples": 48,
+              "correlation": -0.20819833065968257
+            }
+          ],
+          "selection": "older_48h_only",
+          "validation_hours": 24,
+          "forecast_calibrated": false,
+          "causality_claimed": false
+        },
+        "SOL": {
+          "status": "NOT_VALIDATED",
+          "validated": false,
+          "lag_minutes": 30,
+          "training": {
+            "status": "AVAILABLE",
+            "samples": 170,
+            "correlation": -0.006810545583224292
+          },
+          "validation": {
+            "status": "AVAILABLE",
+            "samples": 96,
+            "correlation": -0.1980675299238079
+          },
+          "contemporaneous_training": {
+            "status": "AVAILABLE",
+            "samples": 181,
+            "correlation": 0.8366373711136676
+          },
+          "contemporaneous_validation": {
+            "status": "AVAILABLE",
+            "samples": 96,
+            "correlation": 0.8888511538168411
+          },
+          "reverse_validation": {
+            "status": "AVAILABLE",
+            "samples": 96,
+            "correlation": -0.12162274903749273
+          },
+          "validation_halves": [
+            {
+              "status": "AVAILABLE",
+              "samples": 48,
+              "correlation": -0.21879183563711121
+            },
+            {
+              "status": "AVAILABLE",
+              "samples": 48,
+              "correlation": -0.030590597720889293
+            }
+          ],
+          "selection": "older_48h_only",
+          "validation_hours": 24,
+          "forecast_calibrated": false,
+          "causality_claimed": false
+        }
+      },
+      "filled_observations": 0,
+      "forecast_calibrated": false,
+      "limitations": [
+        "observational_not_causal",
+        "short_validation_window",
+        "no_multiple_testing_significance_claim",
+        "EUR_common_currency_effect",
+        "ticker_response_times_not_exact_trade_times"
+      ],
+      "evidence_sha256": "b91366f6de9b6a4c168994703c441153c724c721f35c73e2e02cbe02ce99b83d"
+    },
+    "accounting_engine": "unchanged_Phase_A_existing_FIFO",
+    "orders_enabled": false,
+    "publication_performed": false,
+    "phase_b_complete": false,
+    "portfolio_risk_integrated": false,
+    "snapshot_source_generated_at": "2026-11-28T14:34:32.195526+00:00",
+    "accounting_at": "2026-11-28T14:19:26.844811+00:00",
+    "capture": {
+      "method": "stable_read_only_accounting_subset",
+      "api_files_scanned": 7358,
+      "api_files_with_known_2l_identifiers": 1601,
+      "short_only_api_files": 897,
+      "copied_bytes": 534601179,
+      "portfolio_sha256": "db65836d6c1336ee8f468eaecd4ad33d88f6d5bcabe0df472224d7f7a7f2f417",
+      "synthetic_transactions_created": false,
+      "canonical_import_performed": false,
+      "supplement_is_documentary_only": true,
+      "content_verification": "fresh_sha256_source_rechecks_not_timestamp_only"
+    },
+    "input_capture_attempt": 2,
+    "compute_seconds": 72.0373,
+    "native_short_accounting": {
+      "BTC1S": {
+        "observation_verified": true,
+        "symbol": "BTC1S",
+        "asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+        "observed_at": "2026-11-28T14:19:26.844811+00:00",
+        "amount": "0.03098461",
+        "current_value_eur": "0.92",
+        "quantity_status": "MATCH",
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "fifo_available": true,
+        "open_cost_basis_eur": "0.9083690677222052",
+        "realized_pnl_eur": "0.52836906772220657",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 17
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "3.33836906772220657",
+            "trade_fees_eur": "2.81000000",
+            "evidenced_trade_fees_eur": "2.81000000",
+            "after_trade_fees_eur": "0.52836906772220657",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "0.0116309322777948",
+            "trade_fees_eur": "0E-8",
+            "evidenced_trade_fees_eur": "0E-8",
+            "after_trade_fees_eur": "0.0116309322777948",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      "ETH1S": {
+        "observation_verified": true,
+        "symbol": "ETH1S",
+        "asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+        "observed_at": "2026-11-28T14:19:26.844811+00:00",
+        "amount": "0.00471562",
+        "current_value_eur": "0.19",
+        "quantity_status": "MATCH",
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "fifo_available": true,
+        "open_cost_basis_eur": "0.1865299168256307",
+        "realized_pnl_eur": "0.51652991682563252",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 15
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "2.32652991682563252",
+            "trade_fees_eur": "1.810000000",
+            "evidenced_trade_fees_eur": "1.810000000",
+            "after_trade_fees_eur": "0.51652991682563252",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "0.0034700831743693",
+            "trade_fees_eur": "0E-9",
+            "evidenced_trade_fees_eur": "0E-9",
+            "after_trade_fees_eur": "0.0034700831743693",
+            "unknown_trade_count": 0
+          }
+        }
+      },
+      "SOL1S": {
+        "observation_verified": true,
+        "symbol": "SOL1S",
+        "asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+        "observed_at": "2026-11-28T14:19:26.844811+00:00",
+        "amount": "0.00082303",
+        "current_value_eur": "0.10",
+        "quantity_status": "MATCH",
+        "costs_status": "UNVERIFIED_NO_ADDITIONAL_DEDUCTION",
+        "fifo_available": true,
+        "open_cost_basis_eur": "0.09833124459735387",
+        "realized_pnl_eur": "0.50833124459735049",
+        "trade_fee_breakdown": {
+          "schema_version": 1,
+          "scope": "RECORDED_PRODUCT_TRADES",
+          "separate_financing_costs_eur": null,
+          "all_costs_net_eur": null,
+          "status": "RECONCILED_TRADE_FEES",
+          "evidence_counts": {
+            "included_native": 12
+          },
+          "realized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "1.82833124459735049",
+            "trade_fees_eur": "1.32",
+            "evidenced_trade_fees_eur": "1.32",
+            "after_trade_fees_eur": "0.50833124459735049",
+            "unknown_trade_count": 0
+          },
+          "unrealized": {
+            "status": "RECONCILED_TRADE_FEES",
+            "product_price_pnl_eur": "0.00166875540264613",
+            "trade_fees_eur": "0",
+            "evidenced_trade_fees_eur": "0",
+            "after_trade_fees_eur": "0.00166875540264613",
+            "unknown_trade_count": 0
+          }
+        }
+      }
+    },
+    "portfolio_risk": {
+      "schema_version": 1,
+      "version": "1.0.0-scoped-observed-risk",
+      "status": "UNAVAILABLE",
+      "reason": "STALE_VALUATION",
+      "orders_enabled": false,
+      "forecast_calibrated": false,
+      "whole_portfolio_complete": false,
+      "covered_value_eur": null,
+      "components": null
+    },
+    "portfolio_risk_scope": "BTC_ETH_SOL_SPOT_LONG_SHORT",
+    "rotation_reference": {
+      "schema_version": 1,
+      "version": "1.0.0-reference-only",
+      "status": "REFERENCE_ANALYSIS",
+      "source_at": "2026-11-28T14:19:26.844811+00:00",
+      "evaluated_at": "2026-11-28T14:34:32.604310+00:00",
+      "items": [
+        {
+          "underlying_symbol": "BTC",
+          "long_symbol": "BTC2L",
+          "short_symbol": "BTC1S",
+          "long_asset_id": "1ed5e973-6cac-646e-b114-3a29a52737c3",
+          "short_asset_id": "1ed5e973-70ff-6156-8348-3a29a52737c3",
+          "execution_access": "bitpanda_native",
+          "status": "DATA_REQUIRED",
+          "trends": {
+            "1": {
+              "confirmed": false,
+              "direction": "unconfirmed",
+              "history_ready": true,
+              "daily_return_fraction": -0.0369776675937461,
+              "daily_return_pct": -3.69776675937461,
+              "r2": 0.2203713848219404,
+              "expected_return_pct": null
+            },
+            "18": {
+              "confirmed": true,
+              "direction": "down",
+              "history_ready": true,
+              "daily_return_fraction": -0.01638128080312451,
+              "daily_return_pct": -1.638128080312451,
+              "r2": 0.5567460841020003,
+              "expected_return_pct": null
+            },
+            "72": {
+              "confirmed": false,
+              "direction": "unconfirmed",
+              "history_ready": false,
+              "daily_return_fraction": null,
+              "daily_return_pct": null,
+              "r2": null,
+              "expected_return_pct": null
+            }
+          },
+          "confirmation_stage": 0,
+          "correlation_scale": 0.5929377452136089,
+          "reference_target_weights": null,
+          "reference_capital_eur": 100.0,
+          "reference_basis": "equal_hypothetical_sleeves_not_actual_portfolio",
+          "comparisons": [],
+          "scenario_review_candidate": false,
+          "blocking_reasons": [
+            "STALE_ACCOUNTING_REFERENCE",
+            "CONFIRMED_1H_DIRECTION_REQUIRED"
+          ],
+          "valid_until": null,
+          "btc_lead_applied": false,
+          "actual_trade_amounts": null,
+          "expected_return_pct": null,
+          "execution_status": "NATIVE_QUOTE_AVAILABLE_BALANCE_AND_RISK_BUDGET_REQUIRED",
+          "portfolio_sizing_verified": false,
+          "recommendation_eligible": false,
+          "orders_enabled": false
+        },
+        {
+          "underlying_symbol": "ETH",
+          "long_symbol": "ETH2L",
+          "short_symbol": "ETH1S",
+          "long_asset_id": "1ed5e973-73cc-6578-847f-3a29a52737c3",
+          "short_asset_id": "1ed5e973-76ac-6180-b638-3a29a52737c3",
+          "execution_access": "bitpanda_native",
+          "status": "DATA_REQUIRED",
+          "trends": {
+            "1": {
+              "confirmed": true,
+              "direction": "down",
+              "history_ready": true,
+              "daily_return_fraction": -0.06724754079433204,
+              "daily_return_pct": -6.724754079433204,
+              "r2": 0.2882067325667854,
+              "expected_return_pct": null
+            },
+            "18": {
+              "confirmed": true,
+              "direction": "down",
+              "history_ready": true,
+              "daily_return_fraction": -0.017337339089598114,
+              "daily_return_pct": -1.7337339089598114,
+              "r2": 0.7332096243032805,
+              "expected_return_pct": null
+            },
+            "72": {
+              "confirmed": false,
+              "direction": "unconfirmed",
+              "history_ready": false,
+              "daily_return_fraction": null,
+              "daily_return_pct": null,
+              "r2": null,
+              "expected_return_pct": null
+            }
+          },
+          "confirmation_stage": 2,
+          "correlation_scale": 0.5929377452136089,
+          "reference_target_weights": null,
+          "reference_capital_eur": 100.0,
+          "reference_basis": "equal_hypothetical_sleeves_not_actual_portfolio",
+          "comparisons": [],
+          "scenario_review_candidate": false,
+          "blocking_reasons": [
+            "STALE_ACCOUNTING_REFERENCE"
+          ],
+          "valid_until": null,
+          "btc_lead_applied": false,
+          "actual_trade_amounts": null,
+          "expected_return_pct": null,
+          "execution_status": "NATIVE_QUOTE_AVAILABLE_BALANCE_AND_RISK_BUDGET_REQUIRED",
+          "portfolio_sizing_verified": false,
+          "recommendation_eligible": false,
+          "orders_enabled": false
+        },
+        {
+          "underlying_symbol": "SOL",
+          "long_symbol": "SOL2L",
+          "short_symbol": "SOL1S",
+          "long_asset_id": "1edaeaf7-6e9b-6c5e-bb27-4a8b18153f58",
+          "short_asset_id": "1edaeaf7-6d01-6394-ac01-4a8b18153f58",
+          "execution_access": "bitpanda_native",
+          "status": "DATA_REQUIRED",
+          "trends": {
+            "1": {
+              "confirmed": true,
+              "direction": "down",
+              "history_ready": true,
+              "daily_return_fraction": -0.14197964735995428,
+              "daily_return_pct": -14.197964735995427,
+              "r2": 0.5702461719350258,
+              "expected_return_pct": null
+            },
+            "18": {
+              "confirmed": true,
+              "direction": "down",
+              "history_ready": true,
+              "daily_return_fraction": -0.025325115488089356,
+              "daily_return_pct": -2.5325115488089356,
+              "r2": 0.8217021384845574,
+              "expected_return_pct": null
+            },
+            "72": {
+              "confirmed": false,
+              "direction": "unconfirmed",
+              "history_ready": false,
+              "daily_return_fraction": null,
+              "daily_return_pct": null,
+              "r2": null,
+              "expected_return_pct": null
+            }
+          },
+          "confirmation_stage": 2,
+          "correlation_scale": 0.5929377452136089,
+          "reference_target_weights": null,
+          "reference_capital_eur": 100.0,
+          "reference_basis": "equal_hypothetical_sleeves_not_actual_portfolio",
+          "comparisons": [],
+          "scenario_review_candidate": false,
+          "blocking_reasons": [
+            "STALE_ACCOUNTING_REFERENCE"
+          ],
+          "valid_until": null,
+          "btc_lead_applied": false,
+          "actual_trade_amounts": null,
+          "expected_return_pct": null,
+          "execution_status": "NATIVE_QUOTE_AVAILABLE_BALANCE_AND_RISK_BUDGET_REQUIRED",
+          "portfolio_sizing_verified": false,
+          "recommendation_eligible": false,
+          "orders_enabled": false
+        }
+      ],
+      "scenario_review_candidate_count": 0,
+      "settings": {
+        "stage_risk_fractions": [
+          0.2,
+          0.5,
+          1.0
+        ],
+        "horizon_hours": 24.0,
+        "min_switch_advantage_pct": 1.0,
+        "min_switch_net_return_pct": 1.0,
+        "min_target_change_pct": 10.0,
+        "extra_cost_allowance_pct": 0.25
+      },
+      "correlations": {
+        "BTC/ETH": {
+          "18": {
+            "status": "AVAILABLE",
+            "samples": 72,
+            "correlation": 0.8402263221107837,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 72,
+            "observed_fraction": 1.0
+          },
+          "72": {
+            "status": "AVAILABLE",
+            "samples": 277,
+            "correlation": 0.9221709696622645,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 288,
+            "observed_fraction": 0.9618055555555556
+          }
+        },
+        "BTC/SOL": {
+          "18": {
+            "status": "AVAILABLE",
+            "samples": 72,
+            "correlation": 0.7094984751207261,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 72,
+            "observed_fraction": 1.0
+          },
+          "72": {
+            "status": "AVAILABLE",
+            "samples": 277,
+            "correlation": 0.8586184988459689,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 288,
+            "observed_fraction": 0.9618055555555556
+          }
+        },
+        "ETH/SOL": {
+          "18": {
+            "status": "AVAILABLE",
+            "samples": 72,
+            "correlation": 0.8010602814700242,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 72,
+            "observed_fraction": 1.0
+          },
+          "72": {
+            "status": "AVAILABLE",
+            "samples": 283,
+            "correlation": 0.8613588131896367,
+            "descriptive_only": true,
+            "statistical_significance_claimed": false,
+            "expected_returns": 288,
+            "observed_fraction": 0.9826388888888888
+          }
+        }
+      },
+      "settings_basis": "unoptimized_review_assumptions_not_user_risk_budget",
+      "correlation_scaling_basis": "equal_sleeve_variance_reference_using_largest_absolute_pair_correlation",
+      "btc_lead_policy": "DISABLED_NO_REPEATABLE_EVIDENCE",
+      "btc_lead_review": {
+        "reviewed_at": "2026-11-23T21:55:24.267712+00:00",
+        "lags_minutes": [
+          15,
+          30,
+          45,
+          60
+        ],
+        "ETH": {
+          "complete_days": 27,
+          "validated_days": 0
+        },
+        "SOL": {
+          "complete_days": 26,
+          "validated_days": 0
+        }
+      },
+      "fee_model_reviewed_at": "2026-11-23",
+      "short_model_reviewed_at": "2026-11-10",
+      "synthetic_prices_used": false,
+      "accounting_values_modified": false,
+      "expected_return_pct": null,
+      "forecast_calibrated": false,
+      "orders_enabled": false,
+      "automatic_reallocation_enabled": false,
+      "trade_proposal_available": false,
+      "recommendation_eligible": false,
+      "limitations": [
+        "reference_cost_scenarios_not_calibrated_expected_returns",
+        "actual_execution_access_quotes_balances_and_tax_not_verified",
+        "actual_intraday_leverage_and_reset_paths_unknown",
+        "future_funding_only_no_historical_fee_double_deduction",
+        "not_a_full_portfolio_allocation_or_historical_profit_backtest"
+      ],
+      "evidence_sha256": "2cebe584be8998207458cf280b570717d1e7af1713785f91f45fb19adbef03be"
+    },
+    "history_completeness": "ACCOUNT_INCEPTION_NOT_PROVEN"
+  }
+}
